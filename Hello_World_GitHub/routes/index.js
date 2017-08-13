@@ -4,7 +4,7 @@ var mySQL = require('MySQL');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Changes for GitHub Master' });
+  res.render('index', { title: 'Changes for GitHub Master at 9:14AM' });
 });
 
 router.get('/home',function(req,res,next){
